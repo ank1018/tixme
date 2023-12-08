@@ -226,7 +226,7 @@ const Home = ({ title }) => {
                   <h3 className="find-near-box">Find Near By Events</h3>
                 </Col>
                 <Col md={12} className="Find-Near-form">
-                  <div>
+                  <div className="d-flex">
                     <select name="" id="" className="theme-dropdown dropdown-custome category-select">
                       {Listitems.map((item, index) => (
                           <option value={item._id}>{item.name}</option>
